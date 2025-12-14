@@ -10,4 +10,4 @@ int main (){
 char playAgain;
 srand (time(0));
 printf("Welcome to Guess the Number Game ");
-do { printf("\n choose difficulty Level: \n); 
+do { printf("\n choose difficulty Level: \n"); 
