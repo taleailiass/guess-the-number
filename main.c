@@ -16,3 +16,6 @@ printf("2.Medium((1-100,7 attempts)\n");
 printf("3.Hard (1-200, 5 attempts)\m");
 printf("Enter 1-3: ");
 clearbuffer();
+switch (level) {
+case 1: number = rand() %50+1 ; maxAttempts=10; break;
+case 2; number = rand() %100+1; maxAttempts=7; break;
