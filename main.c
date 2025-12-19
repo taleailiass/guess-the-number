@@ -40,4 +40,12 @@ else if ((level ==1 && attempts==maxAttempts/2) || (level==2 && attempts == maxA
 printf("Hint: The number is %s than %d\n, guess <number ? "greater":"smaller",guess);
   }
 }
-while ()
+while (attempts<maxAttempts);
+printf("Your current score : %d\n",score);
+printf("do you want to play again (y/n):\t");
+scanf("%c",&playagain);
+clearbuffer();
+} while(playagain=='y' || playagain='Y');
+printf("\nThanks for playing, final score : %d\n",score);
+return 0;
+   }
