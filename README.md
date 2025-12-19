@@ -8,3 +8,4 @@ ths game includes :
 -Score tracking 
 -Replay option
 This project is to practice C programming concepts like loops,conditions,functions,and user inputs .
+<img width="1614" height="910" alt="image" src="https://github.com/user-attachments/assets/3929d164-7087-4913-afaa-84313723d8f2" />
